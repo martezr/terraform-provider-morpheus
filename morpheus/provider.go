@@ -49,6 +49,7 @@ func Provider() *schema.Provider {
 			"morpheus_checkbox_option_type":  resourceCheckboxOptionType(),
 			//			"morpheus_cloud":                   resourceCloud(),
 			"morpheus_environment":             resourceEnvironment(),
+			"morpheus_git_integration":         resourceGitIntegration(),
 			"morpheus_group":                   resourceMorpheusGroup(),
 			"morpheus_hidden_option_type":      resourceHiddenOptionType(),
 			"morpheus_manual_option_list":      resourceManualOptionList(),
